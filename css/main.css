@@ -260,4 +260,226 @@ body {
   .coffeman__container {
     gap: 125px;
   }
+}
+.Subs__header {
+  padding-top: 32px;
+}
+
+.header__logo {
+  display: inline-block;
+  width: 163px;
+}
+
+.header__btn {
+  height: 16px;
+  width: 16px;
+  background-repeat: no-repeat;
+  background-image: url(../img/menu-icon.svg);
+  border: none;
+  background-color: transparent;
+}
+
+.header__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__list {
+  display: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 33px;
+}
+
+.header__link {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 125%;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #83888f;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    padding-top: 40px;
+  }
+  .header__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .header__logo {
+    width: 236px;
+  }
+  .header__btn {
+    display: none;
+  }
+}
+@media screen and (min-width: 998px) {
+  .header {
+    padding-top: 43px;
+  }
+}
+.subs-hero {
+  padding-top: 40px;
+}
+
+.subs-hero__block {
+  background-repeat: no-repeat;
+  background-image: url("../img/subs-hero_mobile.svg");
+  background-size: cover;
+  padding: 100px 20px;
+  border-radius: 10px;
+}
+
+.subs-hero__title {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 100%;
+  text-align: center;
+  color: #fefcf7;
+}
+
+.subs-hero__text {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 167%;
+  text-align: center;
+  color: #fefcf7;
+  opacity: 0.8;
+  margin-top: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .subs-hero__content {
+    max-width: 398px;
+    margin-left: 58px;
+    text-align: start;
+  }
+  .subs-hero__title {
+    text-align: start;
+  }
+  .subs-hero__text {
+    text-align: start;
+    font-size: 15px;
+    line-height: 167%;
+  }
+  .subs-hero__title {
+    font-size: 48px;
+    line-height: 100%;
+  }
+  .subs-hero__block {
+    background-image: url("../img/subs-hero_tablet.svg");
+    padding: 104px 0px;
+  }
+}
+@media screen and (min-width: 998px) {
+  .subs-hero__block {
+    background-image: url("../img/subs-hero_laptop.svg");
+  }
+  .subs-hero__content {
+    margin-left: 85px;
+  }
+}
+.steps {
+  padding-top: 120px;
+}
+
+.steps__number {
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 100%;
+  text-align: center;
+  color: #fdd6ba;
+  margin-bottom: 24px;
+}
+
+.steps__title {
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 114%;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 24px;
+}
+
+.steps__text {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 167%;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 56px;
+}
+
+.fist_step {
+  padding-top: 80px;
+  width: 327px;
+}
+
+.steps__block {
+  border-radius: 10px;
+  background-color: #2c343e;
+}
+
+.second_step {
+  width: 327px;
+}
+
+.third_step {
+  width: 327px;
+}
+
+@media screen and (min-width: 768px) {
+  .steps__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .steps__block {
+    max-width: 768px;
+  }
+  .fist_step {
+    width: 327px;
+  }
+  .second_step {
+    width: 327px;
+  }
+  .third_step {
+    width: 327px;
+  }
+}
+@media screen and (min-width: 998px) {
+  .steps__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .steps__block {
+    max-width: 100%;
+  }
 }/*# sourceMappingURL=main.css.map */

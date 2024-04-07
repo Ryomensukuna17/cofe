@@ -1,0 +1,72 @@
+.subs-hero{
+  padding-top: 40px;
+}
+
+.subs-hero__block{
+  background-repeat: no-repeat;
+  background-image: url("../img/subs-hero_mobile.svg");
+  background-size: cover;
+  padding: 100px 20px ;
+  border-radius: 10px;
+
+  
+}
+
+.subs-hero__title{
+font-weight: 900;
+font-size: 40px;
+line-height: 100%;
+text-align: center;
+color: #fefcf7;
+}
+
+.subs-hero__text{
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 167%;
+  text-align: center;
+  color: #fefcf7;
+  opacity: 0.8;
+  margin-top: 24px;
+
+}
+
+
+
+
+
+@media screen and (min-width:768px) {
+  .subs-hero__content{
+    max-width: 398px;
+    margin-left: 58px;
+    text-align: start;
+  }
+  .subs-hero__title{
+    text-align: start;
+  }
+  .subs-hero__text{
+    text-align: start;
+    font-size: 15px;
+line-height: 167%;
+  }
+  .subs-hero__title{
+    font-size: 48px;
+line-height: 100%;
+  }
+  .subs-hero__block{
+
+    background-image: url("../img/subs-hero_tablet.svg");
+    padding: 104px 0px ;
+}
+}
+
+@media screen and (min-width:998px) {
+  .subs-hero__block{
+    background-image: url("../img/subs-hero_laptop.svg");
+  }
+
+  .subs-hero__content{
+    margin-left: 85px;
+  }
+}
